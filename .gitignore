@@ -1,0 +1,17 @@
+# Downloaded providers and Terraform working files
+.terraform/
+
+# State files
+*.tfstate
+*.tfstate.*
+
+# Saved plans
+*.tfplan
+
+# Local input values
+terraform.tfvars
+*.auto.tfvars
+
+# Crash logs
+crash.log
+crash.*.log
